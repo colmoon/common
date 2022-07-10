@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.moon.study.common.rpc.config.feign.FeignConfiguration,\
+  com.moon.study.common.rpc.config.hystrix.HystrixConfiguration,\
+  com.moon.study.common.rpc.config.RpcConfiguration

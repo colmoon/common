@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.moon.study.common.interaction.config.SwaggerConfig,\
+  com.moon.study.common.interaction.config.AddTraceIdResponseBodyAdvice,\
+  com.moon.study.common.interaction.config.CommonJacksonConfig

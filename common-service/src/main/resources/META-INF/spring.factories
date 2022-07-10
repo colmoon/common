@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.moon.study.common.service.util.SpringContextUtil,\
+  com.moon.study.common.service.util.EnvironmentUtil,\
+  com.moon.study.common.service.config.mybatisplus.MybatisConfiguration,\
+  com.moon.study.common.service.config.minio.MinioAutoConfiguration,\
+  com.moon.study.common.service.event.DomainEventPublisherImpl,\
+  com.moon.study.common.service.config.message.MessageSourceConfiguration
+
